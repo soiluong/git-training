@@ -121,3 +121,5 @@ To run MSW in Chrome browser you may need to run Chrome browser with ignore cert
 ```shell
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://local.sprout.ai:8080
 ```
+
+My new changes here
