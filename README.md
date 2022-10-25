@@ -1,5 +1,7 @@
 # Sprout - Frontend Web
 
+Hello Yelyzaveta and Yenting
+
 Client repo for Sprout frontend
 
 - [Project setup & develop](#project-setup--develop)
@@ -25,18 +27,6 @@ At any time any tag or branch can be deployed to any environment using the git p
 
 Clone the repo, run setup and start development:
 
-```shell
-git clone <ssh-link>
-
-cp .env.example .env
-
-npm run setup
-
-npm run dev
-```
-
-#### To disable Mock Service Worker
-
 ```dotenv
 # ensure this environment variable is set to false in your .env file
 VITE_MSW=false
@@ -50,24 +40,6 @@ pick up from `package.json`.
 ## Testing
 
 Ensure you have already installed the dependencies as instructed above.
-
-### Linting
-
-Running ESLint:
-
-```shell
-npm run lint
-```
-
-### Static test
-
-Running TSC:
-
-```shell
-npm run typecheck
-```
-
-### Unit tests
 
 Running Vitest:
 
@@ -130,3 +102,21 @@ My new changes here
 hello
 hello^)
 hi
+
+### Linting
+
+Running ESLint:
+
+```shell
+npm run lint
+```
+
+### Static test
+
+Running TSC:
+
+```shell
+npm run typecheck
+```
+
+### Unit tests
