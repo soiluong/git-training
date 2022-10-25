@@ -9,6 +9,7 @@ Client repo for Sprout frontend
 - [Codebase overview](#codebase-overview)
 
 ## Releases to client environments
+
 Main branch is automatically deployed to the dev environment
 To deploy code to a client environment (includes prod and nonprod) create a gitlab tag from the UI from the main branch or any commit on it using the commit reference.
 At any time any tag or branch can be deployed to any environment using the git pipelines to do a deploy. https://gitlab.com/sprout-ai/foundation-product/frontend-web/-/pipelines/new
@@ -35,6 +36,7 @@ npm run dev
 ```
 
 #### To disable Mock Service Worker
+
 ```dotenv
 # ensure this environment variable is set to false in your .env file
 VITE_MSW=false
@@ -55,7 +57,7 @@ Running ESLint:
 
 ```shell
 npm run lint
-````
+```
 
 ### Static test
 
@@ -63,7 +65,7 @@ Running TSC:
 
 ```shell
 npm run typecheck
-````
+```
 
 ### Unit tests
 
@@ -90,6 +92,7 @@ Run the above steps in one command: `npm run test:e2e:dev`
 OR
 
 Build the client first then run the client and Cypress together:
+
 ```shell
 npm run test:e2e:run
 ```
@@ -99,7 +102,7 @@ npm run test:e2e:run
 Not supporting IE11 as it's not worth the value and effort in doing so
 
 | Edge   | Firefox | Chrome | Safari (macOS) | Safari (iOS) |
-|--------|---------|--------|----------------|--------------|
+| ------ | ------- | ------ | -------------- | ------------ |
 | \>= 91 | \>= 78  | \>= 90 | \>= 14         | \>= 12.5     |
 
 Caveat: since we're using ViteJS v3 their support might be different
@@ -112,6 +115,7 @@ Now migrated to [Vite](https://vitejs.dev/)
 TODO: add more explanation of the repo, dependencies and structure here
 
 ## Translations
+
 https://docs.google.com/spreadsheets/d/1AdRwFZLZRPSfcaSG6f4OHy8ckVUHHgfVUUd8hJR1ask
 
 ## Troubleshooting
@@ -125,3 +129,4 @@ To run MSW in Chrome browser you may need to run Chrome browser with ignore cert
 My new changes here
 hello
 hello^)
+hi
