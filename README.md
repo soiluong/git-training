@@ -16,14 +16,11 @@ At any time any tag or branch can be deployed to any environment using the git p
 
 ## Project setup & develop
 
-### System requirements
-
-- Node.js >=16.0.0 LTS
-- NPM >=8.0.0
-
 ### Setup
 
-Clone the repo, run setup and start development:
+Clone the repo, run setup and
+
+edit
 
 ```shell
 git clone <ssh-link>
@@ -97,16 +94,6 @@ Build the client first then run the client and Cypress together:
 npm run test:e2e:run
 ```
 
-## Supported browsers
-
-Not supporting IE11 as it's not worth the value and effort in doing so
-
-| Edge   | Firefox | Chrome | Safari (macOS) | Safari (iOS) |
-| ------ | ------- | ------ | -------------- | ------------ |
-| \>= 91 | \>= 78  | \>= 90 | \>= 14         | \>= 12.5     |
-
-Caveat: since we're using ViteJS v3 their support might be different
-
 ## Codebase overview
 
 This project was originally bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -118,9 +105,9 @@ TODO: add more explanation of the repo, dependencies and structure here
 
 https://docs.google.com/spreadsheets/d/1AdRwFZLZRPSfcaSG6f4OHy8ckVUHHgfVUUd8hJR1ask
 
-## Troubleshooting
+editing
 
-To run MSW in Chrome browser you may need to run Chrome browser with ignore certificate errors
+## Troubleshooting
 
 ```shell
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://local.sprout.ai:8080
