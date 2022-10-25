@@ -8,6 +8,8 @@ Client repo for Sprout frontend
 - [Supported browsers](#supported-browsers)
 - [Codebase overview](#codebase-overview)
 
+## git push --set-upstream
+
 ## Releases to client environments
 
 Main branch is automatically deployed to the dev environment
