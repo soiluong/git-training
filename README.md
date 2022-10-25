@@ -8,6 +8,8 @@ Client repo for Sprout frontend
 - [Supported browsers](#supported-browsers)
 - [Codebase overview](#codebase-overview)
 
+## git push --set-upstream
+
 ## Releases to client environments
 Main branch is automatically deployed to the dev environment
 To deploy code to a client environment (includes prod and nonprod) create a gitlab tag from the UI from the main branch or any commit on it using the commit reference.
@@ -64,64 +66,3 @@ Running TSC:
 ```shell
 npm run typecheck
 ````
-
-### Unit tests
-
-Running Vitest:
-
-```shell
-npm run test
-```
-
-### E2E tests
-
-To run testing in development:
-
-1. Ensure you have the client running first as instructed above.
-2. Your `.env` file should have the environment variables `VITE_RUNNING_E2E=true` `OKTA_USERNAME` `OKTA_PASSWORD` and `VITE_OKTA_DOMAIN` setup correctly
-3. Open Cypress in a separate terminal: `npm run cy:open`
-4. Select your chosen browser in Cypress App
-5. Click on `Run # integration specs`
-
-OR
-
-Run the above steps in one command: `npm run test:e2e:dev`
-
-OR
-
-Build the client first then run the client and Cypress together:
-```shell
-npm run test:e2e:run
-```
-
-## Supported browsers
-
-Not supporting IE11 as it's not worth the value and effort in doing so
-
-| Edge   | Firefox | Chrome | Safari (macOS) | Safari (iOS) |
-|--------|---------|--------|----------------|--------------|
-| \>= 91 | \>= 78  | \>= 90 | \>= 14         | \>= 12.5     |
-
-Caveat: since we're using ViteJS v3 their support might be different
-
-## Codebase overview
-
-This project was originally bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Now migrated to [Vite](https://vitejs.dev/)
-
-TODO: add more explanation of the repo, dependencies and structure here
-
-## Translations
-https://docs.google.com/spreadsheets/d/1AdRwFZLZRPSfcaSG6f4OHy8ckVUHHgfVUUd8hJR1ask
-
-## Troubleshooting
-
-To run MSW in Chrome browser you may need to run Chrome browser with ignore certificate errors
-
-```shell
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://local.sprout.ai:8080
-```
-
-My new changes here
-hello
-hello^)
