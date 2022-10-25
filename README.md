@@ -1,4 +1,4 @@
-# Soi
+yenting changes 123
 
 Client repo for Sprout frontend
 
@@ -14,7 +14,7 @@ Main branch is automatically deployed to the dev environment
 To deploy code to a client environment (includes prod and nonprod) create a gitlab tag from the UI from the main branch or any commit on it using the commit reference.
 At any time any tag or branch can be deployed to any environment using the git pipelines to do a deploy. https://gitlab.com/sprout-ai/foundation-product/frontend-web/-/pipelines/new
 
-## Andjela & Yelyzaveta
+editing check
 
 ### Setup
 
